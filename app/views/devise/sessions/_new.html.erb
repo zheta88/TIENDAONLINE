@@ -1,4 +1,23 @@
-<h2>Log in</h2>
+<style>
+h2{
+  text-align:center;
+}
+.actions{
+  position:relative;
+  float:none;
+	text-align:center;
+  margin:20px;
+}
+body,html{
+ background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjhPd0v1I75HNjOwfPwLdRAV_sBgMnSRcv2jHD4Mb7HWPF9H74) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+}
+</style>
+
+<h2>INGRESA!</h2>
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   <div class="field">

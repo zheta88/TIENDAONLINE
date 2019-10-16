@@ -1,4 +1,24 @@
-<h2>Sign up</h2>
+<style>
+h2{
+  text-align:center;
+}
+.actions{
+  position:relative;
+  float:none;
+	text-align:center;
+  margin:20px;
+}
+body,html{
+ background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjhPd0v1I75HNjOwfPwLdRAV_sBgMnSRcv2jHD4Mb7HWPF9H74) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+}
+</style>
+
+<div class="container" style="background:#2EFE64; max-width:400px;padding:50px">
+<h2><strong>Regístrate :)</strong></h2>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
@@ -27,3 +47,11 @@
 <% end %>
 
 <%= render "devise/shared/links" %>
+
+</div>
+
+<div class="container">
+
+
+
+</div>
